@@ -23,6 +23,22 @@ header {
     margin-bottom: 20px;
 }
 
+.bg {
+    position: absolute;
+    display: none;
+}
+
+.bg-top {
+    left: 0;
+    top: 0;
+}
+
+.bg-bot {
+    bottom: 0;
+    right: 0;
+    height: 800px;
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -124,6 +140,10 @@ footer {
         margin: 120px 200px;
         text-align: left;
         display: block;
+    }
+
+    .bg {
+        display: inline;
     }
 
     header {
